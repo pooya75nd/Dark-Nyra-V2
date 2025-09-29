@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nyra-btn { @apply px-3 py-2 rounded-nyra text-white font-medium; background: linear-gradient(135deg, #8a5cff, #39d0ff); }
+.nyra-tab { @apply px-3 py-2 rounded-nyra text-sm border border-white/10; background: rgba(255,255,255,0.03); }
+.nyra-card { @apply rounded-nyra bg-nyra-card/70 backdrop-blur border border-white/5 shadow-nyra-inner; }
+input.nyra-input { @apply w-full px-3 py-2 rounded-nyra bg-black/40 border border-white/10 text-white placeholder:text-nyra-sub; }
+.debug-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; }
